@@ -792,6 +792,37 @@ Pick one scene and render it with at least 2048 samples per pixel. Show a good s
 </div>
 <br>
 
+<h2 align="middle">Collaboration</h2>
+<p>
+    We worked on this homework together throughout. We talked through each part together before writing any code, then
+    split up the implementation: Pranav focused on Parts 1, 2, and 3, and Jaansi focused on Parts 4 and 5. When one of us got stuck
+    on a bug, we debugged it together, which saved a lot of time on the trickier parts like Part 4. We split the renders and
+    the writeup the same way, and each of us read over the other's sections before submitting.
+</p>
+<br>
+
+<h2 align="middle">Acknowledgement of AI Use</h2>
+<p>
+    We used LLMs for this homework in the following ways:
+</p>
+<ul>
+    <li>We used it for conceptual understanding of the Monte Carlo estimator for direct lighting, and why importance sampling
+        the lights converges faster than uniform hemisphere sampling.</li>
+    <li>We used it for conceptual understanding of Russian roulette, and why dividing by the continuation probability keeps
+        the estimator unbiased.</li>
+    <li>We used it to help debug our BVH construction when our split heuristic produced empty child nodes and caused infinite recursion.</li>
+    <li>We used it to help debug the bright speckles in our global illumination renders, which came from an off-by-one in our
+        ray depth check.</li>
+    <li>We used it to check the running mean/variance formulas for adaptive sampling.</li>
+    <li>We used it to help with HTML formatting and proofreading for this writeup.</li>
+    <li>We generated some of the code for the larger parts of the homework with it. We didn't keep track of exactly which
+        pieces, so we can't list them individually, but we reviewed and tested all of the generated code before using it.</li>
+</ul>
+<p>
+    The explanations and results in this writeup reflect our own understanding and our own renders.
+</p>
+<br>
+
 
 </body>
 </html>
